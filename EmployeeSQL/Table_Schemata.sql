@@ -52,7 +52,7 @@ CREATE TABLE "Titles" (
      )
 );
 
--- Table alterations to establish foreign key restraint relationships to primary keys above
+-- Table alterations to establish foreign key restraint-relationships to primary keys above
 ALTER TABLE "Dept_emp" ADD CONSTRAINT "fk_Dept_emp_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "Employees" ("emp_no");
 
@@ -71,4 +71,10 @@ REFERENCES "Titles" ("title_id");
 ALTER TABLE "Salaries" ADD CONSTRAINT "fk_Salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "Employees" ("emp_no");
 
+-- Testing table formation & data upload
 SELECT * FROM "Departments";
+SELECT * FROM "Dept_emp";
+SELECT * FROM "Dept_manager";
+SELECT * FROM "Employees";
+SELECT * FROM "Salaries";
+SELECT * FROM "Titles";
