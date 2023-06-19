@@ -7,7 +7,7 @@ This challenge uses the SQL concepts and knowledge I've learned in the 9th modul
 ## Table of Contents
 
 - [About](#about)
-- [Getting Started-Installing](#getting-started-installing)
+- [Getting Started & Installing](#getting-started-&-installing)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -16,7 +16,7 @@ Write about 1-2 paragraphs describing the purpose of your project.
 As written in the description above, to complete this challenge I played the role of data engineer tasked to perform data modeling, data engineering and data analysis for a research project for my (fictitious) company Pewlett Hackard. Specifically to create a relational database for employee data of those worked at the company during the 1980s and 1990s for future analysis. The problem that presented itself was that the only data on these employees at the present time was housed in 6 seperate CSV files. 
 To complete this project I sketched an Entity Relationship Diagram (ERD), produced schema for the tables modeled in the ERD and queried the newly created Database tables to answer the desired questions from my company.
 
-## Getting Started/Installing
+## Getting Started & Installing
 To properly run this project please make sure the following are installed:
 * PostgreSQL (version 14 or higher needed)
 * pgAdmin (latest version needed)
