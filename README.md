@@ -26,6 +26,7 @@ If running from scratch please run the ***Table_Schemata*** file in it's entiret
 1. titles
 2. departments
 3. employees
+
 Remaining order does not matter. Importing this way will respect the key relationships in the database, otherwise the imports will fail.
 
 Running the 'SELECT ALL' statements located at the bottom of the ***Table_Schemata*** file will verify the table creation and data upload was successfull.
