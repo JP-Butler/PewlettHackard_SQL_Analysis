@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------
 
 ## Pewlett Hackard Employee Analysis 
-This challenge uses the SQL concepts and knowledge I've learned in the 9th module of the Carelton Data Analytics Boot Camp such as schema creation, importing data, CRUD statement joins, ERDs to name a few. Using these newly acquired techniques and skills I'll plau the role of data engineer to model, engineer and analyze data from Pewlett Hackard (a fictional company) to research employee data from the 1980s and 1990s.
+This challenge uses the SQL concepts and knowledge I've learned in the 9th module of the Carelton Data Analytics Boot Camp such as schema creation, importing data, CRUD statement joins, ERDs to name a few. Using these newly acquired techniques and skills I'll play the role of data engineer to model, engineer and analyze data from Pewlett Hackard (a fictional company) to research employee data from the 1980s and 1990s.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ This challenge uses the SQL concepts and knowledge I've learned in the 9th modul
 - [Contributing](#contributing)
 
 ## About
-Write about 1-2 paragraphs describing the purpose of your project.
 As written in the description above, to complete this challenge I played the role of data engineer tasked to perform data modeling, data engineering and data analysis for a research project for my (fictitious) company Pewlett Hackard. Specifically to create a relational database for employee data of those worked at the company during the 1980s and 1990s for future analysis. The problem that presented itself was that the only data on these employees at the present time was housed in 6 seperate CSV files. 
 To complete this project I sketched an Entity Relationship Diagram (ERD), produced schema for the tables modeled in the ERD and queried the newly created Database tables to answer the desired questions from my company.
 
